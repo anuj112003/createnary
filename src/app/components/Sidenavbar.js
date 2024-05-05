@@ -17,7 +17,7 @@ const Sidenavbar = () => {
     };
 
   return (
-    <div className='md:fixed mb-[30px]' >
+    <div className='md:fixed mb-[30px] z-[10]' >
      <button onClick={toggleSidebar} className="text-white p-2 bg-gray-700 hover:bg-gray-600 focus:outline-none rounded-[13px] h-[30px] w-[30px] mt-[25rem]">
         {isOpen ?  <Image src={Previous} alt='previous' className='w-full  ' /> :  <Image src={Next} alt='previous' className='w-full  ' />} 
       </button>
