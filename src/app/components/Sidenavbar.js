@@ -17,12 +17,12 @@ const Sidenavbar = () => {
     };
 
   return (
-    <div className='md:fixed mb-[30px] z-[10]' >
-     <button onClick={toggleSidebar} className="text-white p-2 bg-gray-700 hover:bg-gray-600 focus:outline-none rounded-[13px] h-[30px] w-[30px] mt-[25rem]">
+    <div className='md:fixed mt-[400px]  ' >
+     <button onClick={toggleSidebar} className="text-white p-2 bg-gray-700 hover:bg-gray-600 focus:outline-none rounded-[13px] h-[30px] w-[30px]    ">
         {isOpen ?  <Image src={Previous} alt='previous' className='w-full  ' /> :  <Image src={Next} alt='previous' className='w-full  ' />} 
       </button>
-    <div className={` text-white h-full w-64 flex flex-col justify-between rounded-[13px] transparent transition duration-[0.5s] ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-      <div className="p-4">
+    <div className={` text-white h-[10px]  w-34 flex flex-col justify-between rounded-[13px] transparent transition duration-[0.5s] ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div className=" p-4">
         <ul>
           <li className="mb-2">
             <Link href="/">

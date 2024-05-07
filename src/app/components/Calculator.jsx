@@ -40,7 +40,7 @@ function Calculator() {
 
   return (
     <div className=" w-full  h-full    bg-[#8f90a0] ">
-      <div className="   lg:md:w-[730px] xl:w-[866px]  w-[324px] h-[729px] lg:md:h-[651px]  absolute lg:md:top-[1627px] top-[1450px] left-[30px]  lg:md:left-[150px] sm:left-[170px] xl:left-[290px] 2xl:left-[590px]  lg:md:-z-20  ">
+      <div className="   lg:md:w-[730px] xl:w-[866px]  w-[324px] h-[729px] lg:md:h-[651px]  absolute lg:md:top-[1627px] top-[1450px] left-[30px]  lg:md:left-[150px] sm:left-[170px] xl:left-[290px] 2xl:left-[590px]  lg:md:-z-20 sm:right-[60px] right-[-10px] mx-auto sm:-z-20 ">
         <div className="  lg:md:w-[730px] xl:w-[866px] lg:md:h-[559px] absolute  top-[91px] gap-[50px] flex flex-col ">
           <div className=" lg:md:w-[730px] xl:w-[866px] lg:md:h-[455px] gap-[120px]  flex  ">
             <div className=" lg:md:w-[572px] lg:md:h-[455px]  ">

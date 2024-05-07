@@ -10,13 +10,13 @@ import Image from 'next/image'
 
 function Footer() {
   return (
-    <div className='  lg:w-full md:w-[1024px] w-[105%] sm:h-[385px] sm:w-[910px] h-[517px] absolute sm:top-[3147px]  top-[3100px] bg-[#4A508E] -z-20 '>
-        <div className=' md:w-[840px] sm:w-[740px] xl:w-[1080px] absolute h-[229px] top-[40px] left-[180px] '>
-          <div className='sm:w-[151px] w-[136px] sm:h-[116px] h-[114px] absolute  sm:left-[560px] md:left-[670px] xl:left-[928px] left-[-160px] sm:top-[30px] top-[280px] flex flex-col gap-[16px] '>
+    <div className='  lg:w-full md:w-[1024px] w-[105%] sm:h-[385px] sm:w-[875px] h-[517px] absolute sm:top-[3147px]  top-[3100px] bg-[#4A508E] -z-20 '>
+        <div className=' md:w-[840px] sm:w-[690px] xl:w-[1080px] absolute h-[229px] top-[40px] left-[180px] '>
+          <div className='sm:w-[151px] w-[136px] sm:h-[116px] h-[114px] absolute  sm:left-[540px] md:left-[670px] xl:left-[928px] left-[-160px] sm:top-[30px] top-[280px] flex flex-col gap-[16px] '>
             <div className='sm:w-[83px] w-[79px] sm:h-[19px]  font-[Urbanist] font-[540] leading-[19.2px] text-[#F8F9FB] tracking-widest text-lg '>Contacts</div>
             <div className=' sm:w-[126px] sm:h-[20px] w-[126px] h-[20px] sm:font-[500] font-[300] flex  text-[14px] gap-[16px]'>
                 <Image src={location} alt='location' width={22} height={17.5} />
-               <div className='w-[91px] h-[19px] font-[Urbanist] font-[500] leading-[19.2px] text-[#F8F9FB] '>Delhi, India</div>
+               <div className=  ' w-[91px] h-[19px] font-[Urbanist] font-[500] leading-[19.2px] text-[#F8F9FB] '>Delhi, India</div>
             </div>
             <div className='   w-[151px] h-[46px]  '>
                <div className='w-[116px] h-[46px]  ml-[35px] space-y-2 text-[14px]'>

@@ -44,7 +44,7 @@ function Section() {
   const images = [Img, Img2, Img3];
 
   return (
-    <div className='  lg:w-full md:w-[1024px] w-[105%] sm:w-[910px]  sm:h-[924px] h-[571px] absolute top-[790px] lg:top-[600px] md:top-[440px] sm:top-[390px] p-[40px] bg-[#4A508E] z-[25] mr-[20px]border border-black'>
+    <div className='  lg:w-full md:w-[1024px] w-[105%] sm:w-[875px]  sm:h-[924px] h-[571px] absolute top-[790px] lg:top-[600px] md:top-[440px] sm:top-[390px] p-[40px] bg-[#4A508E] z-[25] mr-[20px]'>
       <div className=' md:w-[990px] sm:w-[800px] xl:w-[1264px] w-[370px] sm:h-[644px] h-[571px] gap-[50px] flex flex-col sm:mx-auto sm:ml-0 ml-[-41px]'>
         <div className='md:w-[990px] xl:w-[1264px] w-[360px] sm:w-[830px] h-[540px] flex flex-col gap-[70px]  '>
           <div className=' hidden sm:inline  xl:w-[518px] h-[85px] flex flex-col mx-auto justify-between '>
