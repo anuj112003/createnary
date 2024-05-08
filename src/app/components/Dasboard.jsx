@@ -11,7 +11,7 @@ function dasboard() {
   return (
     
     <div className=' md:w-full sm:w-[800px] w-[385px] '>
-      <div className=' absolute -z-20 lg:w-full md:w-[1024px] w-[100%] sm:w-[875px] top-[-50px] lg:h-[1024px]  '>
+      <div className=' absolute -z-20 lg:w-full md:w-[1024px] w-[100%] sm:w-[870px] top-[-50px] lg:h-[1024px]  '>
         <Image src={background} alt='background' className='w-full hidden sm:inline ' />
         <Image src={mobile} alt='mobile' width={690} height={800} className='sm:hidden inline  '/>
       </div>
