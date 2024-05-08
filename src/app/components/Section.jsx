@@ -45,13 +45,13 @@ function Section() {
 
   return (
     <div className='  lg:w-full md:w-[1024px] w-[105%] sm:w-[875px]  sm:h-[924px] h-[571px] absolute top-[790px] lg:top-[600px] md:top-[440px] sm:top-[390px] p-[40px] bg-[#4A508E] z-[25] mr-[20px]'>
-      <div className=' md:w-[990px] sm:w-[800px] xl:w-[1264px] w-[370px] sm:h-[644px] h-[571px] gap-[50px] flex flex-col sm:mx-auto sm:ml-0 ml-[-41px]'>
-        <div className='md:w-[990px] xl:w-[1264px] w-[360px] sm:w-[830px] h-[540px] flex flex-col gap-[70px]  '>
+      <div className=' md:w-[990px] sm:w-[800px]  xl:w-full w-[370px] sm:h-[644px] h-[571px] gap-[50px] flex flex-col sm:mx-auto sm:ml-0 ml-[-41px]'>
+        <div className='md:w-[990px] xl:w-full  w-[360px] sm:w-[830px] h-[540px] flex flex-col gap-[70px]  '>
           <div className=' hidden sm:inline  xl:w-[518px] h-[85px] flex flex-col mx-auto justify-between '>
             <div className=' w-[465px] h-[48px] font-[Urbanist] font-[700] leading-[48px] text-[#F8F9FB] text-3xl tracking-[.07em] text-center'>Your audience wants links</div>
             <div className=' w-[518px] h-[22px] font-[Urbanist] font-[500] leading-[21.6px] text-[#F8F9FB] tracking-[.09em] text-base'>Make it easy for them by linking products to every post and video</div>
           </div>
-          <div className='hidden sm:inline absolute top-[200px] xl:left-[300px] 2xl:left-[550px] md:left-[150px] sm:left-[100px] '>
+          <div className='hidden sm:inline absolute  top-[260px] xl:left-[300px] xl:right-[300px] lg:left-[190px] lg:right-[190px]  2xl:left-[550px] md:left-[170px] sm:left-[100px]  mx-auto'>
             <ImageSlider images={images} interval={1500} alt="Payment Sample" />
           </div>
           <div className='sm:hidden inline w-[320px] h-[240px]  rounded-[15px] absolute top-[250px] left-[25px] right-[50px] mx-auto'>
@@ -59,7 +59,7 @@ function Section() {
           </div>
         </div>
         <Link href="/nextPage">
-          <div className='  hidden sm:inline w-[139px] h-[54px] rounded-[18px] absolute xl:left-[610px] 2xl:left-[850px] md:left-[470px] sm:left-[380px] text-center bg-white pt-[16px] pr-[24px] pb-[16px] pl-[24px] mx-auto hover:scale-[1.2] transition duration-[0.7s] ease-in-out'>
+          <div className='  hidden sm:inline w-[139px] h-[54px] rounded-[18px] absolute top-[800px] xl:left-[610px] xl:right-[610px] 2xl:left-[850px] md:left-[470px] sm:left-[380px] text-center bg-white pt-[16px] pr-[24px] pb-[16px] pl-[24px] mx-auto hover:scale-[1.2] transition duration-[0.7s] ease-in-out'>
             <div className='w-[91px] h-[22px] font-[Urbanist] font-[600] leading-[21.6px] text-black cursor-pointer'>Try For free</div>
           </div>
         </Link>

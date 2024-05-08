@@ -15,8 +15,8 @@ function dasboard() {
         <Image src={background} alt='background' className='w-full hidden sm:inline ' />
         <Image src={mobile} alt='mobile' width={690} height={800} className='sm:hidden inline  '/>
       </div>
-      <div className='sm:w-[28%]  xl:w-[28%]  w-[300px] sm:h-[630px] h-[450px] absolute sm:top-[126px]  top-[300px]   lg:md:left-[730px] xl:left-[850px] 2xl:left-[1200px] left-[-70px] -z-20 ' >
-         <Image src={heroimage} alt='Mobile' className=' absolute left-[105px] md:left-[730px] lg:left-[20px] xl:left-[105px] sm:left-[740px]  shadow-[rgba(0,0,0,0.2)]' width={420} height={630} />
+      <div className='sm:w-[28%]  xl:w-[28%]  w-[300px] sm:h-[630px] h-[450px] absolute sm:top-[126px]  top-[300px]   lg:md:left-[730px] xl:left-[820px] 2xl:left-[1100px] 3xl:left-[1400px] left-[-70px] -z-20 ' >
+         <Image src={heroimage} alt='Mobile' className=' absolute left-[105px] md:left-[730px] lg:left-[10px] xl:left-[105px]   sm:left-[740px] 2xl:left-[10px]  shadow-[rgba(0,0,0,0.2)]' width={420} height={630} />
       </div>
       <div className='w-[474px]  h-[360px] absolute top-[232px] sm:top-[132px] left-[180px] sm:left-[50px] gap-[50px]  -z-20 hidden sm:inline' >
          <div className='w-[474px]  h-[256px] lg:gap-[28px] md:gap-[12px] sm:gap-[4px]  flex flex-col'>
