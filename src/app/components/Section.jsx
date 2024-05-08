@@ -44,7 +44,7 @@ function Section() {
   const images = [Img, Img2, Img3];
 
   return (
-    <div className='  lg:w-full md:w-[1024px] w-[105%] sm:w-[875px]  sm:h-[924px] h-[571px] absolute top-[790px] lg:top-[600px] md:top-[440px] sm:top-[390px] p-[40px] bg-[#4A508E] z-[25] mr-[20px]'>
+    <div className='  lg:w-full md:w-[1024px] w-[100%] sm:w-[875px]  sm:h-[924px] h-[571px] absolute top-[790px] lg:top-[600px] md:top-[440px] sm:top-[390px] p-[40px] bg-[#4A508E] z-[25] mr-[20px]'>
       <div className=' md:w-[990px] sm:w-[800px]  xl:w-full w-[370px] sm:h-[644px] h-[571px] gap-[50px] flex flex-col sm:mx-auto sm:ml-0 ml-[-41px]'>
         <div className='md:w-[990px] xl:w-full  w-[360px] sm:w-[830px] h-[540px] flex flex-col gap-[70px]  '>
           <div className=' hidden sm:inline  xl:w-[518px] h-[85px] flex flex-col mx-auto justify-between '>
@@ -64,7 +64,7 @@ function Section() {
           </div>
         </Link>
         <div>
-          <div className='absolute top-[110px]  right-[50px] left-[50px] w-[340px] h-[129px] pt-[0px] pl-[16px] pr-[0px] pb-[16px] flex flex-col mx-auto justify-between '>
+          <div className='absolute top-[110px]  right-[50px] left-[50px] w-[320px] h-[129px] pt-[0px] pl-[16px] pr-[0px] pb-[16px] flex flex-col mx-auto justify-between '>
             <div className='sm:hidden inline w-[380px] h-[29px] font-[Urbanist] font-[700] leading-[48px] text-[#F8F9FB] text-3xl tracking-[.07em] text-center absolute right-[10px] bottom-[190px]'>Your audience wants links</div>
             <div className='sm:hidden inline w-[303px] h-[57px] font-[Urbanist] font-[500] leading-[21.6px] text-[#F8F9FB] tracking-[.09em] text-base'>Make it easy for them by linking products to every post and video</div>
           </div>
