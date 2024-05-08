@@ -5,7 +5,7 @@ import { HiOutlinePlus, HiOutlineMinus } from "react-icons/hi";
 
 function Question() {
   return (
-    <div className='sm:w-[730px] w-[300px] sm:h-[715px] h-[815px]  absolute sm:top-[2394px] top-[2150px] md:left-[150px] sm:left-[100px] xl:left-[355px] 2xl:left-[555px] sm:right-[250px] left-[29px] right-[50px] sm:-z-20 mx-auto flex flex-col '>
+    <div className='sm:w-[730px] w-[300px] sm:h-[715px] h-[815px]  absolute sm:top-[2394px] top-[2150px] md:left-[150px] sm:left-[100px] xl:left-[355px] 2xl:left-[255px] sm:right-[250px] left-[29px] right-[50px] sm:-z-20 mx-auto flex flex-col '>
       <div className=' sm:w-[630px] w-[300px] sm:h-[92px] h-[69px] sm:ml-[56px] ml-[17px] gap-[16px] flex flex-col'>
         <div className='sm:w-[460px] w-[270px] sm:h-[32px] h-[19px] font-[Urbanist] sm:text-2xl sm:mx-auto font-[700] sm:leading-[32.4px] leading-[19.2px] text-black sm:tracking-widest'>FREQUENTLY ASKED QUESTIONS</div>
         <div className='sm:w-[630px] w-[275px] sm:h-[44px] h-[34px] font-[Urbanist] sm:text-base font-[500] sm:leading-[21.6px] leading-[16.8px] sm:text-center text-black sm:tracking-widest'>Quick answers to questions you may have. Can&apos;t find what you&apos;re looking for?<span className='hidden md:inline bg-gradient-to-r from-[rgba(74,80,142,1)] to-[rgba(103,74,142,1)] inline-block text-transparent bg-clip-text font-[550]'>Check out our full documentation</span></div>
